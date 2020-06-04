@@ -1,0 +1,59 @@
+//: PracticeOne .java
+/****************** Exercise 1 *****************
+*	Create a class containing an int and a char
+*	that are not initialized. Print their values
+*	to verify that Java performs default
+*	initialization.
+***********************************************/
+package com.wuroc.chaptertwo;
+
+/**
+ * @author HepengWu
+ * @author www.github.com/WuRoc
+ * @version 1.0
+ * @2020年5月29日
+ *
+ * 
+ */
+public class PracticeOne {
+	static int i;
+	static char c;
+//	    -----------------------------------
+//	public static void main(String[] args){
+//		PracticeOne p =new PracticeOne();
+//		System.out.println("i = ["+p.i+"]");  
+//		System.out.println("c = ["+p.c+"]"); 
+//}
+//		-------------------------------------
+//第二种写法
+//	public PracticeOne(){
+//	System.out.println("i = ["+i+"]");  
+//	System.out.println("c = ["+c+"]"); 
+//	}
+//	public static void main (String[] args) {
+//		new PracticeOne();
+//	}
+//	Three
+	static void ic() {
+		//如果定义的是static ，i,也要定义static
+		System.out.println("i = ["+i+"]");    
+		System.out.println("c = ["+c+"]"); 
+	}
+	public static void main (String[] args) {
+		PracticeOne.ic();
+	}
+		
+	
+
+} /* Output:
+i = [0]   int的基本类型默认值是0
+c = [ ]  char的基本类型默认值是 空格
+*///:~
+
+//---------------------------------------
+
+
+ 
+
+
+

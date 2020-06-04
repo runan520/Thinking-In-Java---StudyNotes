@@ -1,0 +1,27 @@
+//: PracticeOne .java
+
+package com.wuroc.chaptertwo;
+
+/**
+ * @author HepengWu
+ * @author www.github.com/WuRoc
+ * @version 1.0
+ * @2020年5月29日
+ *
+ * 
+ */
+public class PracticeOne {
+	int i;
+	char c;
+	
+	public static void main(String[] args){
+		PracticeOne p =new PracticeOne();
+		System.out.println("i = ["+p.i+"]"); 
+		System.out.println("c = ["+p.c+"]");
+		
+		
+	} 
+
+}
+
+

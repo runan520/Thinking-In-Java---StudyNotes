@@ -1,0 +1,31 @@
+//: P04_DataOnly.java
+
+package com.wuroc.chaptertwo;
+
+/**
+ * @author HepengWu
+ * @author www.github.com/WuRoc
+ * @version 1.0
+ * @2020年6月3日
+ *
+ * 
+ */
+public class P04_DataOnly {
+	int i;
+	float f;
+	double d;
+	boolean b;
+	
+	public static void main(String[] arg) {
+
+		P04_DataOnly p = new P04_DataOnly();
+//		objectReference.member
+		p.i = 47;
+		p.f = 0.0f;
+		p.d = 1.1;
+		p.b =false;
+		
+		System.out.println(p.i);
+	}
+
+}

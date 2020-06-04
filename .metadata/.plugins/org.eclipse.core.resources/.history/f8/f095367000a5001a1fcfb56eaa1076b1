@@ -1,0 +1,28 @@
+//: PracticeThree.java
+
+package com.wuroc.chapter;
+
+/**
+ * @author HepengWu
+ * @author www.github.com/WuRoc
+ * @version 1.0
+ * @2020年6月3日
+ *
+ * 
+ */
+public class PracticeThree {
+	public static void main(String[] args) {
+	
+		PracticeOne ATypeName = new PracticeOne();
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

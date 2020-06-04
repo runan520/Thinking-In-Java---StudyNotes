@@ -1,0 +1,50 @@
+//: P10ShowArgs.java
+
+package com.wuroc.chaptertwo;
+
+/**
+ * @author HepengWu
+ * @GitHub www.github.com/WuRoc
+ * @version 1.0
+ * @2020年6月3日
+ *
+ * 
+ */
+public class P10ShowArgs {
+	static int i;
+	
+	int add(int i) {
+
+		return i;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		P10ShowArgs p = new P10ShowArgs();
+		
+		
+		
+		System.out.println(p.add(123456));
+		
+		
+		if(args.length <3) {
+			
+			System.out.println("Need arguments ");
+			
+			System.exit(1);
+		}
+		
+		System.out.println(args[0]);
+		
+		System.out.println(args[1]);
+		
+		System.out.println(args[2]);
+		
+	}
+	
+	
+	
+	
+
+}

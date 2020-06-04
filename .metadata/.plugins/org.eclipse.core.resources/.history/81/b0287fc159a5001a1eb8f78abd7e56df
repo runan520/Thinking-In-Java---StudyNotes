@@ -1,0 +1,21 @@
+//: P02_HelloWord.java
+
+package com.wuroc.chaptertwo;
+
+/**
+ * @author HepengWu
+ * @author www.github.com/WuRoc
+ * @version 1.0
+ * @2020年6月3日
+ *
+ * 
+ */
+public class P02_HelloWord {
+	public static void main(String[] args) {
+		System.out.println("Hello , Word !");
+	}
+
+} /*output:
+Hello,Word!
+ *///:~
+
