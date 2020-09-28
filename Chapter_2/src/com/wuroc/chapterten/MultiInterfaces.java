@@ -1,0 +1,31 @@
+//MultiInterfaces.java
+package com.wuroc.chapterten;
+
+/**
+ * @author RocWu
+ *
+ */
+interface A {}
+interface B {}
+class X implements A, B {}
+class Y implements A {
+	B makeB() {
+		// 匿名类
+		return new B() {			
+		};
+	}	
+}
+public interface MultiInterfaces {
+	static void takesA(A a ) {}
+	static void takesB(B b) {}
+	public static void main(String args[]) {
+		X x = new X();
+		Y y = new Y();
+		takesA(x);
+		takesA(y);
+		takesB(x);
+		takesB(y.makeB());
+		
+	}
+
+}
